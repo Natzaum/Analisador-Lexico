@@ -42,11 +42,11 @@ Ao pressionar a tecla de espaço, o programa verifica se o estado atual é um es
 
 ## Tecnologias utilizadas
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-JavaScript (puro, sem bibliotecas externas)
+- JavaScript (puro, sem bibliotecas externas)
 
 ## Objetivo acadêmico
 
