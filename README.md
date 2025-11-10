@@ -1,5 +1,7 @@
 ## Linguagens formais - Analizador Léxico
 
+Link do projeto no GitHub Pages: https://natzaum.github.io/Analisador-Lexico/
+
 Este projeto é uma simulação interativa de um Autômato Finito Determinístico (AFD) desenvolvido para fins didáticos, como parte da disciplina de Linguagens Formais.
 O objetivo é representar o funcionamento de um autômato de forma visual, acompanhando em tempo real o reconhecimento de palavras.
 
