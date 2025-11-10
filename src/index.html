@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autômato Finito - Múltiplas Palavras (Interativo)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Analisador Léxico</h2>
+
+    <div>
+      <label>Adicionar palavra:</label><br>
+      <input id="novaPalavra" placeholder="ex: erechim" />
+      <button id="adicionar">Adicionar Palavra</button>
+      <button id="criar">Gerar Autômato</button>
+      <div id="lista-palavras"></div>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <label>Digite palavra(s) para testar:</label><br>
+      <input id="entrada" disabled />
+    </div>
+
+    <table id="tabela"></table>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="automato.js"></script>
+</body>
+</html>
