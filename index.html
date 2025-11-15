@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Analisador Léxico</title>
   <link rel="stylesheet" href="src/styles.css" />
 </head>
+
 <body>
   <div class="container">
-    <h2>Analisador Léxico</h2>
+    <div class="scroll">
+      <h2>Analisador Léxico</h2>
 
-    <div>
-      <label>Adicionar palavra:</label><br>
-      <input id="novaPalavra" placeholder="ex: erechim" />
-      <button id="adicionar">Adicionar Palavra</button>
-      <button id="criar">Gerar Autômato</button>
-      <div id="lista-palavras"></div>
+      <div>
+        <label>Adicionar palavra:</label><br>
+        <input id="novaPalavra" placeholder="ex: erechim" />
+        <button id="adicionar">Adicionar Palavra</button>
+        <button id="criar">Gerar Autômato</button>
+        <div id="lista-palavras"></div>
+      </div>
+
+      <div style="margin-top: 20px;">
+        <label>Digite palavra(s) para testar:</label><br>
+        <input id="entrada" disabled />
+      </div>
+
+      <table id="tabela"></table>
+      <div id="resultado"></div>
     </div>
-
-    <div style="margin-top: 20px;">
-      <label>Digite palavra(s) para testar:</label><br>
-      <input id="entrada" disabled />
-    </div>
-
-    <table id="tabela"></table>
-    <div id="resultado"></div>
   </div>
 
   <script src="./src/script.js"></script>
   <script src="./src/automato.js"></script>
 </body>
+
 </html>

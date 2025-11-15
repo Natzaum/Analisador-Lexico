@@ -12,11 +12,36 @@
     .container {
         text-align: center;
         background: #1e1e1e;
-        padding: 30px;
         border-radius: 10px;
         width: 90%;
         max-width: 800px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        max-height: 90vh;
+        overflow: hidden;
+    }
+
+    .scroll {
+        padding: 30px;
+        overflow-y: auto;
+        max-height: 80vh;
+    }
+
+    .scroll::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background: #121212;
+        border-radius: 10px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 10px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb:hover {
+        background: #777;
     }
 
     input {
